@@ -58,5 +58,3 @@
  - [ ] End project to wrap up the series
     - [ ] Web scraping for AI training
     - [ ] GemmaFunction / Gemini automate a business function
-
-
