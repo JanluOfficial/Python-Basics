@@ -1,44 +1,44 @@
 # Python Basics
 
- - Literals
- - Variables
- - Flow control (if/elif/else)
- - Loops (while/for loops)
- - Array
- - Objects
- - Classes
- - Inheritance
- - Map/Rudce
- - Lambda / Functional / Closures
- - Cloujre
- - List Comprehension
- - Dunder methods
- - Type casting
- - Writing/Reading files
- - Common libs - os, math, regex
-     - Request Lib
-     - path lib
-     - subprocess
-     - MP multiprocessing
-     - MANIM ?!??!?!?!
- - Advancd libs - Numby / Matplot
-    - sqlite
-    - pyqt
-    - tkinter - GUI
-    - qt - GUI
-    - Selinium - QA automation
-    - Pygame
-        - simple games like hman
-    - flask
-    - FastAPI
-    - uvicorn
-    - Textual - TUI lib
- - AI 
-     - Huggingface Pipeslines
-     - Pytorch tensor/matrix
-     - Computer vision
- - End project to wrap up the series
-    - Web scraping for AI training
-    - GemmaFunction / Gemini automate a business function
+ - [ ] Literals
+ - [ ] Variables
+ - [ ] Flow control (if/elif/else)
+ - [ ] Loops (while/for loops)
+ - [ ] Array
+ - [ ] Objects
+ - [ ] Classes
+ - [ ] Inheritance
+ - [ ] Map/Rudce
+ - [ ] Lambda / Functional / Closures
+ - [ ] Cloujre
+ - [ ] List Comprehension
+ - [ ] Dunder methods
+ - [ ] Type casting
+ - [ ] Writing/Reading files
+ - [ ] Common libs - [ ] os, math, regex
+     - [ ] Request Lib
+     - [ ] path lib
+     - [ ] subprocess
+     - [ ] MP multiprocessing
+     - [ ] MANIM ?!??!?!?!
+ - [ ] Advancd libs - [ ] Numby / Matplot
+    - [ ] sqlite
+    - [ ] pyqt
+    - [ ] tkinter - [ ] GUI
+    - [ ] qt - [ ] GUI
+    - [ ] Selinium - [ ] QA automation
+    - [ ] Pygame
+        - [ ] simple games like hman
+    - [ ] flask
+    - [ ] FastAPI
+    - [ ] uvicorn
+    - [ ] Textual - [ ] TUI lib
+ - [ ] AI 
+     - [ ] Huggingface Pipeslines
+     - [ ] Pytorch tensor/matrix
+     - [ ] Computer vision
+ - [ ] End project to wrap up the series
+    - [ ] Web scraping for AI training
+    - [ ] GemmaFunction / Gemini automate a business function
 
 
