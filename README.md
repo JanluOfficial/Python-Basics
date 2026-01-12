@@ -1,61 +1,59 @@
 # Python Basics
 
- - [ ] Literals
- - [ ] Variables
+ - [x] Literals
+ - [x] Variables
  - [ ] Flow control (if/elif/else)
  - [ ] Loops (while/for loops)
- - [ ] Match statement (switch/case)
  - [ ] Array
+ - [ ] F Strings
  - [ ] Objects
  - [ ] Classes
- - [ ] Methods vs Functions
- - [ ] East Eggs (this)
-    - [ ] import this
-    - [ ] import __hello__
-    - [ ] import antigravity
  - [ ] Inheritance
  - [ ] Map/Rudce
  - [ ] Lambda / Functional / Closures
  - [ ] Cloujre
  - [ ] List Comprehension
+ - [ ] Dictionary Comprehension
  - [ ] Dunder methods
  - [ ] Type casting
  - [ ] Writing/Reading files
 
+ - [ ] Easter Eggs
+    - [ ] import this
+    - [ ] import __hello__
+    - [ ] import antigravity
+    - [ ] from __future__ import braces
+
  - [ ] Common libs
-    - [ ] os, math, regex
-    - [ ] path lib
-    - [ ] subprocess
-    - [ ] mp multiprocessing
-    - [ ] threading
-    - [ ] MANIM ?!??!?!?!
+     - [ ] os, math, regex
+     - [ ] Time
+     - [ ] Request Lib
+     - [ ] path lib
+     - [ ] subprocess
+     - [ ] MP multiprocessing
+     - [ ] MANIM ?!??!?!?!
 
-    VIM + TMUX + GHOSTTY
-
- - [ ] Networking
-    - [ ] pubnub channel communication
-    - [ ] request Lib
-    - [ ] sockets
-
- - [ ] Advancd libs
-    - [ ] numpy / pandas / Matplot
+ - [ ] Advancd libs - [ ] Numby / Matplot
     - [ ] sqlite
     - [ ] pyqt
-    - [ ] tkinter GUI
-    - [ ] qt GUI
-    - [ ] Selinium QA automation
+    - [ ] tkinter - [ ] GUI
+    - [ ] qt - [ ] GUI
+    - [ ] Selinium - [ ] QA automation
     - [ ] Pygame
         - [ ] simple games like hman
-    - [ ] pillow "PIL" images
     - [ ] flask
     - [ ] FastAPI
     - [ ] uvicorn
-    - [ ] Textual TUI lib
+    - [ ] Textual - [ ] TUI lib
+
+ - [ ] Faster Python 🚀 
+     - [ ] pypy
+     - [ ] IronPython
 
  - [ ] AI 
-    - [ ] Huggingface Pipeslines
-    - [ ] Pytorch tensor/matrix
-    - [ ] Computer vision
+     - [ ] Huggingface Pipeslines
+     - [ ] Pytorch tensor/matrix
+     - [ ] Computer vision
 
  - [ ] End project to wrap up the series
     - [ ] Web scraping for AI training
