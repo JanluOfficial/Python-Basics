@@ -1,6 +1,5 @@
 # Python Basics
 
-
 ## My Setup
 Ghostty - terminal emulator
 Tmux - window pane manager inside Ghostty
@@ -16,17 +15,16 @@ vim - stock vim
  - [x] F Strings
  - [x] Array
  - [x] Array Slices
- - [ ] Dictionaries
- - [ ] Kwargs
- - [ ] Objects
+ - [ ] Dictionaries / Objects
+ - [ ] KWargs
  - [ ] Classes
+ - [ ] Inheritance
  - [ ] Unarry Operators - ~ 
  - [ ] Comparison Operators == < > <= >=
  - [ ] Math Operators + - / * % ^
  - [ ] Logic Operators (and &&, or ||, xor ^)
  - [ ] Shrot circuts and / or
  - [ ] Bitwise Operators + - / * % ^
- - [ ] Inheritance
  - [ ] Map/Rudce
  - [ ] Binary manipulation
  - [ ] Lambda / Functional / Closures
