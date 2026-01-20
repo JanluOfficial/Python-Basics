@@ -1,5 +1,17 @@
 # Python Basics
 
+Python -> data science
+Rust -> cost effective(speed, reliability)
+JavaScript, TypeScript
+C, C++, C#
+C for memory manip
+Ruby, Rust, Golang
+PHP, Python, Java
+Scala, Clojur
+Erlang
+Kotlin
+
+
 ## My Setup
 Ghostty - terminal emulator
 Tmux - window pane manager inside Ghostty
@@ -27,10 +39,13 @@ vim - stock vim
  - [x] Short circuts and / or
  - [x] Bit Shifting
  - [x] Methods vs Functions
- - [ ] Map/Rudce
+ - [x] Map 🎂
+ - [x] Filter
+ - [x] Reduce
+ - [x] Closures
+ - [x] @Decorators
  - [ ] Lambda / Functional / Closures
  - [ ] functools
- - [ ] Cloujre
  - [ ] List Comprehension
  - [ ] Dictionary Comprehension
  - [ ] Type casting

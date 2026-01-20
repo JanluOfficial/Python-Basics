@@ -1,19 +1,12 @@
 from functools import reduce
+def combine(number1, number2) -> int:
+    return number1 + number2
 
-def addHello(string: str) -> str:
-    return f"Hello {string}" 
+numbers = [1,2,3,4,5,6,7,8]
 
-names = [
-    'Betti',
-    'Kyle',
-    'Quantum',
-    'Damilare',
-]
+## Pre-reduced numbers
+print(numbers)
 
-## Pre-mappped names
-print(names)
-
-## Mapped names with hello greating
-print(list(map(addHello, names)))
-print(list(map(lambda s: f"Hello {s} from lambda", names)))
-
+## Reduced numbers
+## Final output
+print(reduce(combine, numbers))
