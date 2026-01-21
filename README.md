@@ -44,13 +44,12 @@ vim - stock vim
  - [x] Reduce
  - [x] Closures
  - [x] @Decorators
- - [ ] Lambda / Functional / Closures
+ - [x] Lambda / Functional
  - [ ] List Comprehension
  - [ ] Dictionary Comprehension
  - [ ] functools
  - [ ] Type casting
  - [ ] Writing/Reading files
- - [ ] Scopes
 
  - [ ] Networking
     - [ ] pubnub channel communication
