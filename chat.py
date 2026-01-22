@@ -10,3 +10,7 @@ def LauraMaxwell(comon_sivan):
 
 channel = 'chat'
 communication.startStream(channel, LauraMaxwell)
+
+while True:
+    message = input()
+    communication.send(channel, message)
