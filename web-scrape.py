@@ -24,6 +24,7 @@
 
 
 ## TODO PDF READER
+import uuid
 import sys
 import time
 import queue
@@ -70,7 +71,8 @@ def html_parser_worker(urls: Queue, pages: Queue):
             time.sleep(1)
             continue
         page = pages.get()
-        print(page)
+        with open(f'downloads/page_{str(uuid.uuid8())}', 'w') as file:
+            file.write(page)
 
 async def main():
     ## List of URLS we need to fetch
