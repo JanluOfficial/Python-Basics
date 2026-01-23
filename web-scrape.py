@@ -24,8 +24,9 @@
 
 
 ## TODO PDF READER
-import uuid
+import re
 import sys
+import uuid
 import time
 import queue
 import requests
@@ -40,6 +41,10 @@ def url_fetch_worker(urls: Queue, pages: Queue):
     ## TODO
     completedUrls = {}
     ## TODO
+    ## TODO prevent re-downloaded previous URLS
+    ## TODO relative url support ( href=/asdfasf )
+    ## TODO max depth ( to prevent too much download )
+    ## TODO domain lock  so we don't donwload the ENTIRE WEB
     ## TODO
     while True:
         if urls.empty():
@@ -65,12 +70,20 @@ def url_fetch_worker(urls: Queue, pages: Queue):
 
 ## HTML Parser
 def html_parser_worker(urls: Queue, pages: Queue):
+    find_urls = r'href=["\']([^"\']+)["\']'
     while True:
         if pages.empty():
             print('no pages, sleeping for 1 second')
             time.sleep(1)
             continue
         page = pages.get()
+
+        ## Parse for more links to crawl
+        links = re.findall(find_urls, page)
+        for link in links:
+            urls.put(link)
+
+        ## Save data it is gold
         with open(f'downloads/page_{str(uuid.uuid8())}', 'w') as file:
             file.write(page)
 
